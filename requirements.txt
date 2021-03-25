@@ -2,4 +2,4 @@ discord.py
 asyncio
 requests
 tabulate
-json
+discord.js
