@@ -1,10 +1,4 @@
 discord.py
 asyncio
-random
-get
-commands
-json
-os
-math
 requests
 tabulate
