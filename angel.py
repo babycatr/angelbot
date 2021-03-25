@@ -17,8 +17,8 @@ from tabulate import tabulate #pip
 bot = commands.Bot(command_prefix = '천사야 ', help_command = None)
 
 
-#봇의 토큰
-token=("ODIzOTA5NzU1NTAwMTAxNjUy.YFnrwQ.kYusyaa_mhKTG2BFmVzZ0AMUPOc")
+access_token = os.environ["BOT.TOKEN"]
+token=(access_token)
 
 @bot.event
 async def on_ready():
